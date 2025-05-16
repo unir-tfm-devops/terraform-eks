@@ -1,6 +1,8 @@
 name: "Terraform Destroy"
 
 on:
+  schedule:
+    - cron: "0 21 * * *" # Every day at 21:00 UTC
   workflow_dispatch:
 
 jobs:
