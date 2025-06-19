@@ -1,3 +1,10 @@
 server:
   service:
     type: ClusterIP
+
+configs:
+  repositories:
+    chartmuseum:
+      url: http://3.238.99.68
+      type: helm
+      name: chartmuseum
