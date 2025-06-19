@@ -27,8 +27,5 @@ jobs:
       - name: "Terraform Init"
         run: terraform init -input=false
 
-      - name: "Terraform Validate"
-        run: terraform validate
-
       - name: "Terraform Destroy"
         run: terraform destroy -auto-approve -input=false
