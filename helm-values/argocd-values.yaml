@@ -3,10 +3,9 @@ server:
     type: ClusterIP
 
 configs:
+  timeout.reconciliation: 30s
   repositories:
     chartmuseum:
       url: http://3.238.99.68
       type: helm
       name: chartmuseum
-  repository:
-    pollingInterval: 30
