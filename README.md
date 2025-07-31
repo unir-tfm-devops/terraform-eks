@@ -15,7 +15,7 @@ This Terraform project manages:
 ## 📁 Project Structure
 
 ```
-terraform-eks/
+infra-eks/
 ├── main.tf               # EKS cluster and VPC configuration
 ├── argocd.tf             # ArgoCD Helm deployment
 ├── providers.tf          # AWS, Kubernetes, and Helm provider configuration
